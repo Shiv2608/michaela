@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+       body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: rgba(0, 119, 255, 0.89);
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color:rgb(0, 140, 255);
+}
+
+.container {
+  border-radius: 5px;
+  background-color:none;
+  padding: 20px;
+}
+body{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmuGL1TlGgiiVUED-lzOn40rvDnFT7FiZ8cA&usqp=CAU');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+</style>
+
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="projcss.css">
+</head>
+<body>
+
+    <div class="topnav">
+        <a class="active" href="Homepage.html">Home</a>
+        <a href="about us.html">About</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      
+    
+</body>
+<h1>CONTACT US</h1>
+<P>Thank you for visiting Khumnet Services if<br>you are interested with what we have to offer,<br>have any questions or whish to find out more<br> feel free to contact us.</P>
+<br>
+<p>CALL <br>Mr Khumalo<br>0823483612</p>
+<br>
+<p>LOCATION<br>Ezakheni township,B section</p>
+<br>
+<p>TIMES<br>07:00 to 19:00</p>
+<h3>Contact Form</h3>
+
+<div class="container">
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="South Africa">South Africa</option>
+      <option value="Australia">Australia</option>
+      <option value="usa">USA</option>
+    </select>
+
+    <label for="message">Message</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+<footer>
+    <p>TERMS AND CONDITIONS</p>
+    <P>RETURN POLICY</P>
+    <P>REFUND POLICY</P>
+    </footer>
+</html>
